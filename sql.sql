@@ -55,19 +55,19 @@ INSERT INTO membre (nom, date_naissance, genre, email, ville, mdp, image_profil)
 ('David', '2000-12-01', 'Homme', 'david@example.com', 'Toamasina', 'mdp123', 'david.jpg');
 
 INSERT INTO categorie_objet (nom_categorie) VALUES
-('Esthétique'), ('Bricolage'), ('Mécanique'), ('Cuisine');
+('Esthetique'), ('Bricolage'), ('Mecanique'), ('Cuisine');
 
 
 
 INSERT INTO objet (nom_objet, id_categorie, id_membre) VALUES
-('Sèche-cheveux', 1, 1), ('Maquillage', 1, 1), ('Tournevis', 2, 1), ('Perceuse', 2, 1),
+('Seche-cheveux', 1, 1), ('Maquillage', 1, 1), ('Tournevis', 2, 1), ('Perceuse', 2, 1),
 ('Clé anglaise', 3, 1), ('Pompe à vélo', 3, 1), ('Mixeur', 4, 1), ('Casserole', 4, 1),
-('Pinceau maquillage', 1, 1), ('Four électrique', 4, 1);
+('Pinceau maquillage', 1, 1), ('Four electrique', 4, 1);
 
 
 INSERT INTO objet (nom_objet, id_categorie, id_membre) VALUES
-('Brosse à cheveux', 1, 2), ('Lime à ongle', 1, 2), ('Marteau', 2, 2), ('Clé à molette', 2, 2),
-('Cric', 3, 2), ('Pneu vélo', 3, 2), ('Friteuse', 4, 2), ('Cuillère', 4, 2),
+('Brosse a cheveux', 1, 2), ('Lime à ongle', 1, 2), ('Marteau', 2, 2), ('Clé à molette', 2, 2),
+('Cric', 3, 2), ('Pneu velo', 3, 2), ('Friteuse', 4, 2), ('Cuillère', 4, 2),
 ('Poêle', 4, 2), ('Perceuse sans fil', 2, 2);
 
 INSERT INTO objet (nom_objet, id_categorie, id_membre) VALUES
@@ -77,7 +77,7 @@ INSERT INTO objet (nom_objet, id_categorie, id_membre) VALUES
 
 
 INSERT INTO objet (nom_objet, id_categorie, id_membre) VALUES
-('Peigne', 1, 4), ('Fer à lisser', 1, 4), ('Visseuse', 2, 4), ('Tournevis étoile', 2, 4),
+('Peigne', 1, 4), ('Fer a lisser', 1, 4), ('Visseuse', 2, 4), ('Tournevis étoile', 2, 4),
 ('Pneu moto', 3, 4), ('Bidon huile moteur', 3, 4), ('Blender', 4, 4), ('Marmite', 4, 4),
 ('Planche à découper', 4, 4), ('Batteur', 4, 4);
 

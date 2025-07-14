@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'db.php';
+require_once '../db.php';
 
 // Récupérer toutes les catégories
 $categories = $pdo->query("SELECT * FROM categorie_objet")->fetchAll();

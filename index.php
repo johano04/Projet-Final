@@ -21,9 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 <h2>Connexion</h2>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
 <form method="post">
     <input type="email" name="email" placeholder="Email" required><br>
     <input type="password" name="mdp" placeholder="Mot de passe" required><br>
     <button type="submit">Se connecter</button>
 </form>
-<a href="pages/register.php">S'inscrire</a>
+Pas encore de compte?<a href="pages/register.php">S'inscrire ici</a>
